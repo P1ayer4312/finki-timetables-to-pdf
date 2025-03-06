@@ -1,0 +1,21 @@
+{
+  "name": "timetables-to-pdf",
+  "description": "Tool for converting FINKI's timetables to pdf",
+  "author": "P1ayer",
+  "version": "0.0.1",
+  "main": ".\\src\\index.mjs",
+  "scripts": {
+    "start": "node .\\src\\index.mjs"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "pdfmake": "^0.2.18"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "eslint": "^9.21.0",
+    "globals": "^16.0.0"
+  }
+}
