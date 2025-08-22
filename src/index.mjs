@@ -12,7 +12,7 @@ tables.other.forEach((item) => console.log(`${item.tt_num.padStart(4)}: ${item.t
 
 // Swap this value with any existing timetable num if you want to generate previous one
 // Example: timetableNum = "14";
-const timetableNum = tables.current;
+const timetableNum = tables.current || tables.other.at(-1).tt_num;
 
 const targetTimetable = tables.other.find((item) => item.tt_num == String(timetableNum));
 
