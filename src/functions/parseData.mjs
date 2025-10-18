@@ -38,7 +38,7 @@ export default function parseData(data) {
 
     parsedData.push({
       studyId: el.id,
-      studyName: el.short,
+      studyName: el.short?.trim(),
       weekdays,
     });
   });
